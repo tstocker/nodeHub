@@ -1,0 +1,57 @@
+
+html {
+	height: 100%;
+	padding: 0px;
+	margin:0px;
+}
+
+body {
+	/*background: radial-gradient(#BBAA42, #AA5500) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+	font-family: verdana;
+	padding: 0px;
+	margin:0px;
+
+}
+
+#hub {
+	/*text-align:center;*/
+	line-height: 500px;
+	/*margin-left: auto;*/
+	/*margin-right:auto;*/
+	/*width: 250px;*/
+}
+
+#hub a {
+	height: 10px;
+	margin: 10px 10px; /* espacement horizontal des blocs */
+
+
+	line-height: 10px;
+	display:block;
+	vertical-align:middle;
+
+
+	text-align:left; /* on réblit l'alignement du texte */
+
+
+	/*background-image: linear-gradient(150deg, #464646, #1E1E1E);*/
+	/*border: 1px solid #FFBB32;*/
+	/*box-shadow: 0 0 10px #000000 inset;*/
+	/*color: #FFBB32;*/
+
+	font-size: 16px;
+
+
+
+	padding: 15px;
+	/*text-decoration: none;*/
+	/*text-shadow: 2px 2px #141414;*/
+	text-transform: uppercase;
+
+	width: 250px;
+
+    margin-left:0px:
+
+
+
+}

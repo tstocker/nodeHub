@@ -1,0 +1,52 @@
+var app = ['home', 'easycharts', 'tstocker', 'blog', 'costantini', 'chrono'];
+//var app = ['easycharts', 'messner', 'blog'];
+
+
+// var app = ['easycharts'];
+var root = {};
+
+// root['baseDir'] = 'H:/dev/node/www/basic';
+
+root['baseDir'] = __dirname.replace(/\/server$/, '');
+root['web']     = root.baseDir + '/web';
+root['webApp']	= function (app) {return root.web + '/app/' + app;};
+//root['webApp']	= root.web + '/app/';
+
+root['webAppJs']   = function (app) {return '/' + app + '/js';};
+root['webAppCss']  = function (app) {return '/' + app + '/css';};
+root['webAppImg']  = function (app) {return '/' + app + '/img';};
+root['webAppLib']  = function (app) {return '/' + app + '/lib';};
+root['webAppTmp']  = function (app) {return '/' + app + '/tmp';};
+root['webAppHtml'] = function (app) {return '/' + app + '/html';};
+
+
+root['webJs']   = '/js';
+root['webCss']  = '/css';
+root['webImg']  = '/img';
+root['webLib']  = '/lib';
+root['webTmp']  = '/tmp';
+root['webHtml'] = '/html';
+
+
+// Home
+/* TODO delete com
+root['home']     = '/home';
+root['homeJs']   = root.home + '/js';
+root['homeCss']  = root.home + '/css';
+root['homeImg']  = root.home + '/img';
+root['homeLib']  = root.home + '/lib';
+root['homeHtml'] = root.home + '/html';
+*/
+
+
+// Test
+root['test']     = '/test';
+
+
+root['srv']     = root.baseDir + '/server';
+root['srvSrc']  = root.srv + '/src';
+root['srvApp']  = '/app';
+
+
+exports.app = app;
+exports.root = root;

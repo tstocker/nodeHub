@@ -1,0 +1,16 @@
+{
+  "name": "nodeHub",
+  "version": "1.0.0",
+  "description": "hub for node applications",
+  "main": "server/index.js",
+  "author": "Thibault Stocker <thibault.stocker@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "eyes": "^0.1.8",
+    "sesh": "^0.1.0"
+  },
+  "scripts": {
+    "start": "sudo node server/index.js"
+  }
+}
